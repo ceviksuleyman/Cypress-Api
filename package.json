@@ -1,0 +1,12 @@
+{
+  "name": "cypressRestApi",
+  "version": "1.0.0",
+  "devDependencies": {
+    "cypress": "*"
+  },
+  "scripts": {
+    "test": "cypress run --browser chrome --headed",
+    "script": "npm run script",
+    "chrome": "npx cypress run --spec 'cypress/e2e/API/HttpRequest.cy.js' --browser chrome --headed"
+  }
+}
